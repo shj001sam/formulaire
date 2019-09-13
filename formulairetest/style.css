@@ -1,0 +1,46 @@
+body{
+    background: url(02.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conteneur{
+    margin: 12% 25%;
+    background-image: linear-gradient( white, rgb(255, 238, 0));
+    opacity: .9;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+p{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+button{
+    float: right;
+    margin-top: 3.5%;
+    margin-right: 25px;
+    font-size: 15px;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+    transition: 0.5s linear;
+}
+
+button:hover{
+    background: rgb(0, 17, 255);
+    color: rgb(255, 255, 255);
+}
